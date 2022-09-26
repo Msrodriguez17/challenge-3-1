@@ -14,4 +14,18 @@
 # 4. The system will show us how the text would look like if we inverted the order of the words. Is there any method that allows us to invert the order of a list? And another one that allows us to join these elements with spaces in between?
 
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
+name= "Kevin Santiago"
+print(name)
+name2 = "Julio Barrientos"
+name3 = "Moises Rodriguez"
+print(name2)
+print(name3)
+
+original_text = input("Type in a text ")
+lowtext = original_text.lower()
+print(lowtext.index("a"))
+
+rnd1 = input("type in a random letter ")
+rnd2 = input("type in a random letter ")
+rnd3 = input("type in a random letter ")
 
