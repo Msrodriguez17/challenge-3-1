@@ -1,4 +1,4 @@
-# fork this challenge to your own repl
+#fork this challenge to your own repl
 #share this challenge with another person in the room.
 
 #Day 3 Python Challenge
@@ -23,9 +23,21 @@ print(name3)
 
 original_text = input("Type in a text ")
 lowtext = original_text.lower()
-print(lowtext.index("a"))
-
 rnd1 = input("type in a random letter ")
 rnd2 = input("type in a random letter ")
 rnd3 = input("type in a random letter ")
+print(lowtext.count(rnd1.lower()))
+print(lowtext.count(rnd2.lower()))
+print(lowtext.count(rnd3.lower()))
 
+#seperate
+list1 = lowtext.split(" ")
+print(len(list1))
+#seperate
+print(list1[0][0])
+print(list1[-1][-1])
+#seperate
+print(original_text[::-1])
+#seperate
+my_bool = "python" in original_text
+print(my_bool)
